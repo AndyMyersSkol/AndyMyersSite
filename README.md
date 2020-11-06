@@ -11,7 +11,7 @@ in the site source. This port is of the second type. Concretely, it means that y
 can simply grab the [zip][zip] or clone this repository, run `bundle install`
 in the new directory and finally `bundle exec jekyll serve`.
 You can now access your brand-new Jekyll site on [http://127.0.0.1:4000/][local].
-Enjoy!
+ Enjoy!
 
 If you're completely new to Jekyll, check out it's [documentation][jekyll] first.
 It's not too hard, we promise!
