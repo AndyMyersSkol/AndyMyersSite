@@ -10,7 +10,7 @@ sitemap:
 ## <center>Research</center>
 ### Publications
 
-<div class="query-select">"<a href="/documents/kornai_goes_to_kenya.pdf" target="_blank">Kornai Goes to Kenya</a>" with Peter Leeson and Colin Harris. *Pubic Choice*. January 2020.</div>
+<div class="query-select">"<a href="/documents/kornai_goes_to_kenya.pdf" target="_blank">Kornai Goes to Kenya</a>" with Peter Leeson and Colin Harris. <i>Pubic Choice</i>. January 2020.</div>
 
 <br/>
 ### Working Papers
