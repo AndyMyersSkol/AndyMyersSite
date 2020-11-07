@@ -3,8 +3,8 @@ title:              Andrew C. W. Myers
 bio:                
 description:        
 locale:             en_US
-baseurl: "/andrewcwmyers" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/AndyMyersSite" # the subpath of your site, e.g. /blog
+url: "www.andrewcwmyers.com" # the base hostname & protocol for your site
 
 # Comments
 disqus_shortname:   default
