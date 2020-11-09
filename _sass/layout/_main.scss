@@ -16,7 +16,7 @@
 
 		> * {
 			@include padding((_size(padding) * 2), (_size(padding) * 2));
-			border-top: solid 2px _palette(border);
+			border-top: solid 0px _palette(border);
 			margin: 0;
 
 			&:first-child {

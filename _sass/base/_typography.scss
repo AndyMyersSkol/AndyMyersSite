@@ -210,5 +210,18 @@
 			border-bottom-color: _palette($p, border);
 		}
 	}
+	
+.container{
+    border: 1px solid #ccccc;
+    text-align: center;
+}
+.category{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: #ccccc;
+    margin: 5px;
+}
+
 
 	@include color-typography;
