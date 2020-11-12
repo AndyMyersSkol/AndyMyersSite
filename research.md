@@ -21,6 +21,6 @@ sitemap:
 <div class="query-select">"<a href="https://stanforddpl.org/papers/yoder_et_al_2020_texas/yoder_et_al_2020_texas.pdf" target="_blank">How Does Expanding Absentee Voting Affect Participation During COVID-19? Quasi-Experimental Evidence from Texas.</a>" with Jesse Yoder, Cassandra Handan-Nader, Daniel M. Thompson, Jennifer Wu, Chenoa Yorgason, and Andrew B. Hall. </div>
 </p>
 <p>
-<div class="query-select">"The Binding Force of Economics" with Colin Harris, Chrisitenne Briol, and Sam Carlen</div>
+<div class="query-select">"The Binding Force of Economics" with Colin Harris, Chrisitenne Briol, and Sam Carlen.</div>
 </p>
 <br/>
