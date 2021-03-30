@@ -23,4 +23,7 @@ sitemap:
 <p>
 <div class="query-select">"The Binding Force of Economics" with Colin Harris, Chrisitenne Briol, and Sam Carlen.</div>
 </p>
+<p>
+<div class="query-select">"Markets and Morality" with Colin Harris and Adam Kaiser.</div>
+</p>
 <br/>
