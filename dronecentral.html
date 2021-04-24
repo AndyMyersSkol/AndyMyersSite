@@ -10,82 +10,154 @@ sitemap:
 <!DOCTYPE HTML>
 
 <html>
-	<head>
-		<meta name=”robots” content=”noindex”>
+  <head>
+        <meta name=”robots” content=”noindex”>
     {% include head.html %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 1px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 
 
-	</head>
-	<body class="is-loading">
+</style>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
-
-				<!-- Intro -->
-					
-
-				<!-- Header -->
-					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-
+  </head>
+  <body class="is-loading">
+      <div id="wrapper" class="fade-in">
+          <header id="header">
+            <a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+          </header>
+          <nav id="nav">
             {% include nav.html %}
+          </nav>
+          <div id="main">
+            
 
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-						<!-- Featured Post -->
-							
 <center>
-<h1> Drone Cam Central </h1>
+<h1> Welcome to Drone Central </h1>
 </center>
 
 
 
-						<!-- Posts -->
-							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-                  {% if mod3 == 0 %}
-                  <article>
-  									<header>
-  										<h2><a href="#">Sponsored</a></h2>
-  									</header>
+<center>
+<div class="row">
+    <div class="col-md-4">
+      <!-- 16:9 -->
+      <h4>The Rocky Branch River</h4>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" width="450" height="340" title="asdf"
+src="https://www.youtube.com/embed/bKSj2G6AHhU?version=3&autoplay=1&mute=1&controls=0&loop=1&&playlist=bKSj2G6AHhU" allowfullscreen>
+</iframe>
+</div>
+</div>
 
-  								</article>
-                  {% endif %}
-                {% endfor %}
 
-							</section>
+<div class="col-md-4">
+      <!-- 16:9 -->
+      <h4> First Video! </h4>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" width="450" height="340" title="asdf"
+src="https://www.youtube.com/embed/2CuHIQYcofA?autoplay=1&mute=1&controls=0&loop=1&playlist=2CuHIQYcofA" allowfullscreen>
+</iframe>
+</div>
+</div>
 
-						<!-- Footer -->
-							
 
-					</div>
+</div>
+</center>
 
-				<!-- Footer -->
+
+
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="/images/drone/home.jpg" alt="Mountains" style="width:100%">
+      <center><h3>Home</h3></center>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="/images/drone/lake_myers.jpg" alt="Mountains" style="width:100%">
+      <center><h3>Lake Myers</h3></center>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="/images/drone/roof.png" alt="Lights" style="width:100%">
+      <center><h3>The Roof</h3></center>
+    </div>
+  </div>
+ </div>
+ 
+
+
+<center><h3>Check Back Soon For Updates!</h3></center>
+
+<p> Disclaimer: All flights were conducted solely for recreational purposes and the drone remained within sight of the operator at all times. 
+
+
+          </div>
         {% include foot.html %}
-
-			</div>
-
-		<!-- Scripts -->
-		{% include scripts-main.html %}
+      </div>
+    {% include scripts-main.html %}
     {% include tracking.html %}
-
-	</body>
+  </body>
 </html>

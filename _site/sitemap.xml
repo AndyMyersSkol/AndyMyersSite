@@ -13,6 +13,16 @@
      </url>
   
     <url>
+      <loc>/dronecentral/</loc>
+       <lastmod>2017-11-02T00:00:00-05:00</lastmod>
+      
+       <changefreq>weekly</changefreq>
+      
+       <priority>1.0</priority>
+      
+     </url>
+  
+    <url>
       <loc>/</loc>
        <lastmod>2017-11-02T00:00:00-05:00</lastmod>
       
