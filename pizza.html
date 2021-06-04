@@ -10,83 +10,168 @@ sitemap:
 <!DOCTYPE HTML>
 
 <html>
-	<head>
-				<meta name=”robots” content=”noindex”>
+  <head>
+        <meta name=”robots” content=”noindex”>
     {% include head.html %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+}
 
+.menu {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
 
-	</head>
-	<body class="is-loading">
+.menu-group-heading {
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+}
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+.menu-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
 
-				<!-- Intro -->
-					
+.menu-item {
+  display: flex;
+}
 
-				<!-- Header -->
-					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-					</header>
+.menu-item-image {
+  width: 800px;
+  height: 800px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
+}
 
-				<!-- Nav -->
-					<nav id="nav">
+.menu-item-text {
+  flex-grow: 1;
+}
 
+.menu-item-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.menu-item-name {
+  margin-right: 1.5em;
+}
+
+.menu-item-description {
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 992px) {
+  .menu {
+    font-size: 16px;
+  }
+
+  .menu-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-item-image {
+    width: 125px;
+    height: 125px;
+  }
+}
+
+</style>
+
+  </head>
+  <body class="is-loading">
+      <div id="wrapper" class="fade-in">
+          <header id="header">
+            <a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+          </header>
+          <nav id="nav">
             {% include nav.html %}
+                        
+          </nav>
+          <div id="main">
+            
 
-					</nav>
 
-				<!-- Main -->
-					<div id="main">
-						<!-- Featured Post -->
-							<article class="post featured">
-								<h1> The Myers' Woodfired Pizzeria </h1>
-								<h2> Established 2020 </h2>
-								<span class="image left"><img src="{{ "/images/chuckpizza.jpg" | absolute_url }}" alt="" /></span>
-								<p>
-							Welcome to our pizzeria. You may place your order <a href="https://forms.gle/Qbz2gj6TsnBQaMmg7" target="_blank">here</a>. Enjoy! 
-						</p>
-							
-							</article>
-								
-						<!-- Posts -->
-							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-                  {% if mod3 == 0 %}
-                  <article>
-  									
 
-  								</article>
-                  {% endif %}
-                {% endfor %}
 
-							</section>
+<body>
+  <div class="container">
+    <div class="menu">
+      <h2 class="menu-group-heading">
+        Our Homemade Menu
+      </h2>
+      <div class="menu-group">
+        <div class="menu-item">
+          <img class="menu-item-image" src="/images/pizza/the_viking.png" alt="Bruschetta">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">The Viking</span>
+              
+            </h3>
+            <p class="menu-item-description">
+              Homemade tomato sauce, mozzarella, pepperoni, black olives, and pineapple, garnished with basil.
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img class="menu-item-image" src="/images/pizza/margarita.png" alt="Bruschetta">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">The Margarita Matthew</span>
+              
+            </h3>
+            <p class="menu-item-description">
+              Just sauce and cheese, it's that simple.
+            </p>
+          </div>
+        </div>
+      </div>
+      
 
-						<!-- Footer -->
-							
+      <div class="menu-group">
+        <div class="menu-item">
+          <img class="menu-item-image" src="/images/pizza/hawiian.png" alt="Bruschetta">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Hawiian</span>
+              
+            </h3>
+            <p class="menu-item-description">
+              Stuff
+            </p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img class="menu-item-image" src="/images/pizza/pesto.png" alt="Bruschetta">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name">Pesto Pizza</span>
+              
+            </h3>
+            <p class="menu-item-description">
+              Stuff
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 
-					</div>
+          </div>
 
-				<!-- Footer -->
         {% include foot.html %}
 
-			</div>
-
-		<!-- Scripts -->
-		{% include scripts-main.html %}
+      </div>
+    {% include scripts-main.html %}
     {% include tracking.html %}
-
-	</body>
+  </body>
 </html>
