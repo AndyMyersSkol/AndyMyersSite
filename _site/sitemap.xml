@@ -4,7 +4,7 @@
   
     <url>
       <loc>/contact/</loc>
-       <lastmod>2017-11-02T00:00:00-05:00</lastmod>
+       <lastmod>2017-11-02T00:00:00-07:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
@@ -14,7 +14,7 @@
   
     <url>
       <loc>/dronecentral/</loc>
-       <lastmod>2017-11-02T00:00:00-05:00</lastmod>
+       <lastmod>2017-11-02T00:00:00-07:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
@@ -24,7 +24,7 @@
   
     <url>
       <loc>/go/</loc>
-       <lastmod>2017-11-02T00:00:00-05:00</lastmod>
+       <lastmod>2017-11-02T00:00:00-07:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
@@ -34,7 +34,7 @@
   
     <url>
       <loc>/</loc>
-       <lastmod>2017-11-02T00:00:00-05:00</lastmod>
+       <lastmod>2017-11-02T00:00:00-07:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
@@ -54,7 +54,7 @@
   
     <url>
       <loc>/misc/</loc>
-       <lastmod>2017-11-02T00:00:00-05:00</lastmod>
+       <lastmod>2017-11-02T00:00:00-07:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
@@ -74,7 +74,7 @@
   
     <url>
       <loc>/pizza/</loc>
-       <lastmod>2017-11-02T00:00:00-05:00</lastmod>
+       <lastmod>2017-11-02T00:00:00-07:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
@@ -84,7 +84,7 @@
   
     <url>
       <loc>/research/</loc>
-       <lastmod>2017-11-02T00:00:00-05:00</lastmod>
+       <lastmod>2017-11-02T00:00:00-07:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
@@ -104,7 +104,17 @@
   
     <url>
       <loc>/skolhouse/</loc>
-       <lastmod>2017-11-02T00:00:00-05:00</lastmod>
+       <lastmod>2017-11-02T00:00:00-07:00</lastmod>
+      
+       <changefreq>weekly</changefreq>
+      
+       <priority>1.0</priority>
+      
+     </url>
+  
+    <url>
+      <loc>/travels/</loc>
+       <lastmod>2017-11-02T00:00:00-07:00</lastmod>
       
        <changefreq>weekly</changefreq>
       
