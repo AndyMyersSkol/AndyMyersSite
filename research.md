@@ -26,7 +26,7 @@ sitemap:
 <div class="query-select">"Polarization and State Legislative Elections" with Sandy Handan-Nader and Andrew Hall.</div>
 </p>
 <p>
-<div class="query-select">"State Legislatures, Term Limits, and Ideology."</div>
+<div class="query-select">"<a href="/documents/Myers_term_limits.pdf" target="_blank">State Legislatures, Term Limits, and Polarization</a>."
 </p>
 <p>
 <div class="query-select">"Being Seen: How Markets Impact our Moral Sentiments" with Colin Harris and Adam Kaiser.</div>
