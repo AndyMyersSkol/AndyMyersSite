@@ -29,7 +29,7 @@ sitemap:
 <div class="query-select">"<a href="/documents/Myers_term_limits.pdf" target="_blank">State Legislatures, Term Limits, and Polarization</a>."</div>
 </p>
 <p>
-<div class="query-select">"Being Seen: How Markets Impact our Moral Sentiments" with Colin Harris and Adam Kaiser.</div>
+<div class="query-select">"<a href="/documents/harris_et_al_2021_morals.pdf" target="_blank">Being Seen: How Markets Impact our Moral Sentiments</a>" with Colin Harris and Adam Kaiser.</div>
 </p>
 <p>
 <div class="query-select">"<a href="https://stanforddpl.org/papers/wu_et_al_2020_dead_voting/wu_et_al_2020_dead_voting.pdf" target="_blank">Are  Dead  People  Voting  By  Mail?   Evidence  From  Washington  State Administrative Records</a>" with Jennifer Wu, Chenoa Yorgason, Hannz Folsz, Cassandra Handan-Nader, Tobias Nowacki, Daniel M. Thompson, Jesse Yoder, and Andrew B.Hall. </div>
