@@ -11,7 +11,7 @@ sitemap:
 ### Publications
 
 <p>
-<div class="query-select">"<a href="/documents/yoder_et_al_2021_turnout.pdf" target="_blank">How Did Absentee Voting Affect the 2020 U.S. Election?</a>" with Jesse Yoder, Cassandra Handan-Nader, Daniel M. Thompson, Jennifer Wu, Chenoa Yorgason, and Andrew B. Hall. <i>Science Advances, </i> 2021.</div>
+<div class="query-select">"<a href="/documents/yoder_et_al_2021_turnout.pdf" target="_blank">How Did Absentee Voting Affect the 2020 U.S. Election?</a>" with Jesse Yoder, Cassandra Handan-Nader, Daniel M. Thompson, Jennifer Wu, Chenoa Yorgason, and Andrew B. Hall. <i>Science Advances. </i> 2021.</div>
 </p>
 <!-- <p>
 <div class="query-select">"<a href="/documents/myers_binding_forces.pdf" target="_blank">The Binding Force of Economics</a>" with Colin Harris and Adam Kaiser. <i>Advances in Austrian Economics, </i> forthcoming.</div>
