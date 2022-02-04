@@ -23,7 +23,7 @@ sitemap:
 
 ### Working Papers
 <p>
-<div class="query-select">"Polarization and State Legislative Elections" with Sandy Handan-Nader and Andrew Hall.</div>
+<div class="query-select">"<a href="https://stanforddpl.org/papers/handan-nader_myers_hall_polarization_2022/" target="_blank">Polarization and State Legislative Elections</a>" with Sandy Handan-Nader and Andrew Hall.</div>
 </p>
 <p>
 <div class="query-select">"<a href="/documents/Myers_term_limits.pdf" target="_blank">State Legislatures, Term Limits, and Polarization</a>."</div>
