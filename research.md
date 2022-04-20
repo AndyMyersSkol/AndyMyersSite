@@ -17,7 +17,7 @@ sitemap:
 <div class="query-select">"<a href="/documents/myers_binding_forces.pdf" target="_blank">The Binding Force of Economics</a>" with Colin Harris and Adam Kaiser. <i>Advances in Austrian Economics, </i> forthcoming.</div>
 </p> -->
 <p>
-<div class="query-select">"<a href="/documents/kornai_goes_to_kenya.pdf" target="_blank">Kornai Goes to Kenya</a>" with Peter Leeson and Colin Harris. <i>Pubic Choice</i>. 2020.</div>
+<div class="query-select">"<a href="/documents/kornai_goes_to_kenya.pdf" target="_blank">Kornai Goes to Kenya</a>" with Peter Leeson and Colin Harris. <i>Public Choice</i>. 2020.</div>
 </p>
 <br/>
 
